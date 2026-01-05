@@ -2,10 +2,11 @@
 
 namespace App\Livewire;
 
+use Flux\Flux;
 use App\Models\CheckIn;
+use Livewire\Component;
 use App\Models\Measurable;
 use Livewire\Attributes\Computed;
-use Livewire\Component;
 
 class CheckInForm extends Component
 {
@@ -53,7 +54,7 @@ class CheckInForm extends Component
     {
         $this->validate([
             'type' => 'required|in:weekly,monthly',
-            'measurableData.*.status' => 'nullable|in:succeeded,failed',
+            'measurableData.*.status' => 'required|in:succeeded,failed',
             'measurableData.*.value' => 'nullable',
             'measurableData.*.description' => 'nullable|string',
         ]);
@@ -84,7 +85,7 @@ class CheckInForm extends Component
             $checkIn->measurables()->attach($measurableId, $pivotData);
         }
 
-        session()->flash('message', 'Check-in saved successfully!');
+        Flux::toast(variant: 'success', text: 'Check-in saved successfully!');
 
         return $this->redirect(route('check-ins.index'), navigate: true);
     }

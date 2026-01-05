@@ -1,0 +1,27 @@
+<?php
+
+return [
+    '— Built with a passion for efficiency 🔥',
+    '— Only the disciplined are truly free <br><strong>Epictetus</strong>',
+    '— Small daily improvements lead to stunning results <br><strong>Robin Sharma</strong>',
+    '— The only way to do great work is to love what you do <br><strong>Steve Jobs</strong>',
+    '— Success is not final, failure is not fatal: it is the courage to continue that counts <br><strong>Winston Churchill</strong>',
+    '— Believe you can and you\'re halfway there <br><strong>Theodore Roosevelt</strong>',
+    '— The future belongs to those who believe in the beauty of their dreams <br><strong>Eleanor Roosevelt</strong>',
+    '— It does not matter how slowly you go as long as you do not stop <br><strong>Confucius</strong>',
+    '— The only limit to our realization of tomorrow will be our doubts of today <br><strong>Franklin D. Roosevelt</strong>',
+    '— Strive not to be a success, but rather to be of value <br><strong>Albert Einstein</strong>',
+    '— The best way to predict the future is to create it <br><strong>Peter Drucker</strong>',
+    '— I have not failed. I\'ve just found 10,000 ways that won\'t work <br><strong>Thomas A. Edison</strong>',
+    '— What you get by achieving your goals is not as important as what you become by achieving your goals <br><strong>Zig Ziglar</strong>',
+    '— The journey of a thousand miles begins with a single step <br><strong>Lao Tzu</strong>',
+    '— You must be the change you wish to see in the world <br><strong>Mahatma Gandhi</strong>',
+    '— Whether you think you can, or you think you can\'t – you\'re right <br><strong>Henry Ford</strong>',
+    '— The mind is everything. What you think you become <br><strong>Buddha</strong>',
+    '— An unexamined life is not worth living <br><strong>Socrates</strong>',
+    '— Eighty percent of success is showing up <br><strong>Woody Allen</strong>',
+    '— Your time is limited, so don’t waste it living someone else’s life <br><strong>Steve Jobs</strong>',
+    '— Winning isn’t everything, but wanting to win is <br><strong>Vince Lombardi</strong>',
+    '— I am not a product of my circumstances. I am a product of my decisions <br><strong>Stephen Covey</strong>',
+    '— The most difficult thing is the decision to act, the rest is merely tenacity <br><strong>Amelia Earhart</strong>',
+];

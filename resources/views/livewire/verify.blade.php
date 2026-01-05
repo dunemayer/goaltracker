@@ -8,11 +8,7 @@
             <flux:text class="text-center">Please enter the application pin-code.</flux:text>
         </div>
         <div class="space-y-6">
-            <flux:otp wire:model="attempt" length="6" submit="auto" class="mx-auto" />
-        </div>
-
-        <div class="text-center mt-4">
-            <button type="submit" class="btn">Verify</button>
+            <flux:otp wire:model="attempt" length="6" submit="auto" class="mx-auto" autofocus />
         </div>
     </form>
 </div>

@@ -31,7 +31,8 @@
                 </flux:text>
             </div> --}}
         </footer>
-        @fluxScripts
-        <flux:toast />
     </div>
+    @fluxScripts
+    <flux:toast />
 </body>
+</html>
